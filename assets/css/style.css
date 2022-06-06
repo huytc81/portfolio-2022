@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #34b7a7;
+  color: #ed3c0d;
   text-decoration: none;
 }
 
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #34b7a7;
+  border: 6px solid #ed3c0d;
   border-top-color: #dcf5f2;
   border-radius: 50%;
   width: 60px;
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #34b7a7;
+  background: #ed3c0d;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -156,14 +156,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
 }
 .header-social-links a:hover {
-  color: #34b7a7;
+  color: #ed3c0d;
 }
 
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -244,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #34b7a7;
+  color: #ed3c0d;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #222222;
@@ -330,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #34b7a7;
+  color: #ed3c0d;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -356,7 +356,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #34b7a7;
+  color: #ed3c0d;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -407,10 +407,10 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
-  color: #fff;
-  background: #808080;
+  color: #000;
+  background: #fff;
 	  box-shadow: 0 15x 15px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-	
+
   }
 #hero .btn-about:hover {
   background: #fc6a03;
@@ -469,7 +469,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #34b7a7;
+  background: #ed3c0d;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -508,8 +508,8 @@ section {
   color: #fff;
 }
 .cta .cta-btn:hover {
-  background: #34b7a7;
-  border: 2px solid #34b7a7;
+  background: #ed3c0d;
+  border: 2px solid #ed3c0d;
 }
 @media (max-width: 1024px) {
   .cta {
@@ -542,7 +542,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #34b7a7;
+  color: #ed3c0d;
 }
 .about .content p:last-child {
   margin-bottom: 0;
@@ -577,7 +577,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #34b7a7;
+  background-color: #ed3c0d;
 }
 
 /*--------------------------------------------------------------
@@ -586,7 +586,7 @@ section {
 .facts .counters span {
   font-size: 48px;
   display: block;
-  color: #34b7a7;
+  color: #ed3c0d;
 }
 .facts .counters p {
   padding: 0;
@@ -657,10 +657,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #34b7a7;
+  border: 1px solid #ed3c0d;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #34b7a7;
+  background-color: #ed3c0d;
 }
 
 /*--------------------------------------------------------------
@@ -676,7 +676,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #34b7a7;
+  border-left: 2px solid #ed3c0d;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -694,7 +694,7 @@ section {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #34b7a7;
+  color: #ed3c0d;
 }
 .resume .resume-item ul {
   padding-left: 20px;
@@ -714,7 +714,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #34b7a7;
+  border: 2px solid #ed3c0d;
 }
 
 /*--------------------------------------------------------------
@@ -847,7 +847,7 @@ section {
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #34b7a7;
+  background: #ed3c0d;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -914,7 +914,7 @@ section {
   transition: 0.3s;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #78d9cd;
+  color: #ed3c0d;
 }
 .portfolio .portfolio-wrap:hover::before {
   opacity: 1;
@@ -944,10 +944,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #34b7a7;
+  border: 1px solid #ed3c0d;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #34b7a7;
+  background-color: #ed3c0d;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -989,7 +989,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #34b7a7;
+  color: #ed3c0d;
   float: left;
   width: 44px;
   height: 44px;
@@ -1017,7 +1017,7 @@ section {
   margin-top: 40px;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #34b7a7;
+  background: #ed3c0d;
   color: #fff;
 }
 .contact .php-email-form {
@@ -1067,7 +1067,7 @@ section {
   font-size: 14px;
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #34b7a7;
+  border-color: #ed3c0d;
 }
 .contact .php-email-form input {
   height: 44px;
@@ -1076,7 +1076,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #34b7a7;
+  background: #FF8303;
   border: 0;
   padding: 10px 30px 12px 30px;
   color: #fff;
@@ -1084,7 +1084,7 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #3dc8b7;
+  background: #ed3c0d;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1118,5 +1118,5 @@ section {
   font-size: 13px;
 }
 #footer .credits a {
-  color: #34b7a7;
+  color: #ed3c0d;
 }
