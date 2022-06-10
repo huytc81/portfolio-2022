@@ -979,6 +979,43 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+/* ===============Video player_setting_dont worry, be happy================= */
+#Vid1 {
+  fill: rgba(255,255,255,1);
+  stroke: rgba(112,112,112,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Vid1 {
+  overflow: visible;
+  position: absolute;
+  width: 1640px;
+  height: 1063px;
+  left: 138px;
+  top: 1154px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Vid2 {
+  fill: rgba(255,255,255,1);
+  stroke: rgba(112,112,112,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Vid2 {
+  position: absolute;
+  overflow: visible;
+  width: 1640px;
+  height: 1063px;
+  left: 138px;
+  top: 2315px;
+}
+/* =========================End video setting=========================== */
 
 /*--------------------------------------------------------------
 # Contact
