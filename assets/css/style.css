@@ -992,7 +992,7 @@ section {
 .Vid1 {
   overflow: visible;
   position: absolute;
-  width: 550px;
+  width: 720px;
   height: 450px;
   left: 0x;
   top: 50px;
@@ -1010,7 +1010,7 @@ section {
 .Vid2 {
   overflow: visible;
   position: absolute;
-  width: 550px;
+  width: 720px;
   height: 450px;
   left: 0x;
   top: 530px;
