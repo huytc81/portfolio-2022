@@ -992,10 +992,10 @@ section {
 .Vid1 {
   overflow: visible;
   position: absolute;
-  width: 1640px;
-  height: 1063px;
-  left: 138px;
-  top: 1154px;
+  width: 550px;
+  height: 450px;
+  left: 0x;
+  top: 50px;
   transform: matrix(1,0,0,1,0,0);
 }
 #Vid2 {
@@ -1008,12 +1008,13 @@ section {
   shape-rendering: auto;
 }
 .Vid2 {
-  position: absolute;
   overflow: visible;
-  width: 1640px;
-  height: 1063px;
-  left: 138px;
-  top: 2315px;
+  position: absolute;
+  width: 550px;
+  height: 450px;
+  left: 0x;
+  top: 530px;
+  transform: matrix(1,0,0,1,0,0);
 }
 /* =========================End video setting=========================== */
 
