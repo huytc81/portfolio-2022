@@ -981,24 +981,35 @@ section {
 }
 /* ===============Video player_setting_dont worry, be happy_June102022================= */
 #Vid1 {
-  fill: rgba(255,255,255,1);
-  /* stroke: rgba(112,112,112,1); */
-  /* stroke-width: 1px; */
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
+  {
+     position: relative;
+     padding-bottom: 56.25%; /* - 16:9 aspect ratio (most common) */
+     /* padding-bottom: 62.5%; - 16:10 aspect ratio */
+     /* padding-bottom: 75%; - 4:3 aspect ratio */
+     padding-top: 30px;
+     height: 0;
+     overflow: hidden;
+ }
 }
 .Vid1 {
-  overflow: visible;
+  overflow: relative;
   position: absolute;
   width: 720px;
   height: 450px;
   left: 0x;
   top: 50px;
-  z-index: -1;
-  /* transform: matrix(1,0,0,1,0,0); */
 }
+.Vid1 iframe,
+.Vid1 object,
+.Vid1 embed {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 #Vid2 {
   /* fill: rgba(255,255,255,1); */
   /* stroke: rgba(112,112,112,1); */
@@ -1015,10 +1026,16 @@ section {
   height: 450px;
   left: 0x;
   top: 530px;
-  z-index: -1;
+  /* z-index: -1; */
   /* transform: matrix(1,0,0,1,0,0); */
 }
 /* =========================End video setting=========================== */
+
+/* ////////////////////Image showcase setting///////////////////////// */
+#img_showcase1 {
+
+}
+/* ///////////////////End Imageshowcase setting//////////////////////*/
 
 /*--------------------------------------------------------------
 # Contact
