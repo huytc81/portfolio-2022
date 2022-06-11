@@ -1022,9 +1022,33 @@ section {
 /* =========================End video setting=========================== */
 
 /* ////////////////////Image showcase setting///////////////////////// */
-#img_showcase1 {
-
+.img_1 {
+  display: flex;
+  flex-direction;
+  width: 720px;
+  height: auto;
+  padding: 0;
+  margin-bottom: 30px;
 }
+
+.img_2 {
+  display: flex;
+  flex-direction;
+  width: 720px;
+  height: auto;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.img_3 {
+  display: flex;
+  flex-direction;
+  width: 720px;
+  height: auto;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
 /* ///////////////////End Imageshowcase setting//////////////////////*/
 
 /*--------------------------------------------------------------
